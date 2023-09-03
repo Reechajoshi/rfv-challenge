@@ -1,7 +1,13 @@
 import React from "react";
+import Message from './components/Message'
+
 
 const App: React.FC = () => {
-  return <h1>TypeScript is awesome</h1>;
+  return (
+    <div>
+      <Message></Message>
+    </div>
+  );
 };
 
 export default App;
