@@ -1,5 +1,5 @@
 {
-  "name": "typescript-react-express-app",
+  "name": "rfv-challenge",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "build:dev": "tsc --watch --preserveWatchOutput",
     "start:dev": "nodemon dist/index.js & webpack -w"
   },
-  "keywords": [],
+  "keywords": ["react", "realfacevalue", "express"],
   "author": "",
   "license": "ISC",
   "dependencies": {

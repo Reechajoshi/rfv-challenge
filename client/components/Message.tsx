@@ -38,12 +38,12 @@ import { useState, useEffect } from 'react';
     return (
         <div>
             <h1>{backendMessage} </h1>
-            <MyButton onClick={() => handleClick("Value")} />
+            <UpdateTextButton onClick={() => handleClick("Value")} />
         </div>
     )
   }
 
-  function MyButton({  onClick }: { onClick: React.MouseEventHandler<HTMLButtonElement>}) {
+  function UpdateTextButton({  onClick }: { onClick: React.MouseEventHandler<HTMLButtonElement>}) {
     return (
       <button onClick={onClick}>
         Click Me!
